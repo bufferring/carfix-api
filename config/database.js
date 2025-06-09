@@ -15,7 +15,7 @@ const sequelize = new Sequelize(
     logging: process.env.NODE_ENV === 'development' ? console.log : false,
     define: {
       timestamps: true,
-      underscored: false,
+      underscored: true,
     },
     pool: {
       max: 5,

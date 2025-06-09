@@ -229,7 +229,7 @@ PORT=5001
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
-DB_NAME=carfix
+DB_NAME=carfix_db
 JWT_SECRET=your_jwt_secret
 JWT_EXPIRE=30d
 ```
